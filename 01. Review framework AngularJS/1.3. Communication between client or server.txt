@@ -1,0 +1,10 @@
+Клиентская сторона и серверная сторона
+
+Client
+AngularJS
+HTML & AngularJS Controller & AngularJS Repositories
+
+AJAX - фоновые асинхронные запросы к WebAPI
+
+Server
+WebAPI Controllers & C# Domain Services & Entity Framework DbContext
