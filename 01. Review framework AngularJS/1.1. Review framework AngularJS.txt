@@ -1,0 +1,27 @@
+AngularJS - JavaScript фреймворк с открытам исходным кодом.
+Предназначен для разработки одностраничных приложений (SPA - Single Page Application).
+
+AngularJS приложения строятся на основе шаблона MVC (Model - View - Controller).
+
+Приложения, разработанные с использованием AngularJS:
+* Легко расширяемые.
+* Легко сопровождаемые.
+* Поддаются тестированию.
+* Поддерживают стандарты.
+
+MVC Client Application:
+Контроллер (Логика) - Модель (Данные) - Представление (Интерфейс).
+
+Example:
+User use application:
+Controller - Model - Request - Model - Controller - View
+More details:
+Window Browser - Action User - Controller - Model - Request to Web Service - Model - Controller - View - DOM - Window Browser
+
+MVC Server Application:
+Controller (Listen endpoints + event) - Model (Models + Connect to database + Request to database) - View (HTML Code)
+
+Example:
+HTTP Request GET /users
+Controller - Model - SQL Request to Database - Model - Controller - View - Render
+

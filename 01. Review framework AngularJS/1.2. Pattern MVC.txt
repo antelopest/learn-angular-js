@@ -1,0 +1,31 @@
+MVC Client Application:
+Контроллер (Логика) - Модель (Данные) - Представление (Интерфейс).
+
+Example:
+User use application:
+Controller - Model - Request - Model - Controller - View
+More details:
+Window Browser - Action User - Controller - Model - Request to Web Service - Model - Controller - View - DOM - Window Browser
+
+MVC Server Application:
+Controller (Listen endpoints + event) - Model (Models + Connect to database + Request to database) - View (HTML Code)
+
+Example:
+HTTP Request GET /users
+Controller - Model - SQL Request to Database - Model - Controller - View - Render
+
+=============================================================================================================
+
+MVC
+Model
+Модель - содержит данные с которыми работает пользователь.
+
+Типы модели:
+View Model - данные, которые передаются от контроллера к представлению.
+Domain Model - данные предметной области и операции, которые над ними выполняются.
+
+Модель должна:
+* Содержать данные предметной области
+* Содержать логику для создания, манипулирования и модификации данных (обращение к сервисам)
+* Предоставлять понятное API для доступа к данным и операциям
+
